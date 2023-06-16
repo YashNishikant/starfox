@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor;
-using UnityEditor.Rendering;
+
 using UnityEngine;
 
 public class Missile : MonoBehaviour
@@ -20,10 +17,11 @@ public class Missile : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (!collision.transform.tag.Equals("MISSILE")) { 
+        if (!collision.transform.tag.Equals("MISSILE") && !collision.transform.tag.Equals("Player")) { 
             Destroy(collision.gameObject);
-            Instantiate(exp, collision.transform.position, Quaternion.identity);
+            Instantiate(exp, collision.GetContact(0).point, Quaternion.identity);
             Destroy(gameObject);
+            FindObjectOfType<Spawner>().incScore();
         }
     }
 

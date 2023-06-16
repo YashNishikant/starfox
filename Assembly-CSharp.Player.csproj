@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{8858F759-F277-938F-2BFF-418D7CDD42D1}</ProjectGuid>
+    <ProjectGuid>{0CA48A36-B71F-9FEE-5EBE-11F6E37D6DCD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,10 +53,23 @@
     <UnityVersion>2019.4.34f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Asset 4- EffectExamples\Shared\Scripts\DecalDestroyer.cs" />
+    <Compile Include="Assets\Asset 4- EffectExamples\Shared\Scripts\ExtinguishableFire.cs" />
+    <Compile Include="Assets\Asset 4- EffectExamples\Shared\Scripts\GunAim.cs" />
+    <Compile Include="Assets\Asset 4- EffectExamples\Shared\Scripts\GunShoot.cs" />
+    <Compile Include="Assets\Asset 4- EffectExamples\Shared\Scripts\ParticleCollision.cs" />
+    <Compile Include="Assets\Asset 4- EffectExamples\Shared\Scripts\ParticleExamples.cs" />
+    <Compile Include="Assets\Asset 4- EffectExamples\Shared\Scripts\ParticleMenu.cs" />
+    <Compile Include="Assets\Scripts\Asteroid.cs" />
     <Compile Include="Assets\Scripts\CamFollow.cs" />
+    <Compile Include="Assets\Scripts\Death.cs" />
+    <Compile Include="Assets\Scripts\Destroy.cs" />
     <Compile Include="Assets\Scripts\Missile.cs" />
     <Compile Include="Assets\Scripts\Plane.cs" />
     <Compile Include="Assets\Scripts\Spawner.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Asset 4- EffectExamples\Shared\Shaders\SurfaceShader_VC.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -608,15 +621,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{DF71DA63-2127-DE0C-06F0-99C048952EB6}</Project>
+      <Project>{6914E8B5-FE1D-0B78-9946-824284E29183}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{2145E37C-6EC7-A46B-38B9-36A8D932277D}</Project>
+      <Project>{94D3144B-BCCD-0D8D-8A54-0CA0045CD8C9}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{C05BC051-3BB3-20CA-9F71-F5CE8D853752}</Project>
+      <Project>{4541048A-F523-DC8F-C8C1-369D7CC71CAF}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
   </ItemGroup>

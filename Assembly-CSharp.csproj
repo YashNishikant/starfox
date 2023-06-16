@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1C089BA0-145F-7173-BC64-2F774C90E165}</ProjectGuid>
+    <ProjectGuid>{06D7B722-8894-23A6-0EF5-B5FA1BC2B6CC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,10 +53,23 @@
     <UnityVersion>2019.4.34f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Asset 4- EffectExamples\Shared\Scripts\DecalDestroyer.cs" />
+    <Compile Include="Assets\Asset 4- EffectExamples\Shared\Scripts\ExtinguishableFire.cs" />
+    <Compile Include="Assets\Asset 4- EffectExamples\Shared\Scripts\GunAim.cs" />
+    <Compile Include="Assets\Asset 4- EffectExamples\Shared\Scripts\GunShoot.cs" />
+    <Compile Include="Assets\Asset 4- EffectExamples\Shared\Scripts\ParticleCollision.cs" />
+    <Compile Include="Assets\Asset 4- EffectExamples\Shared\Scripts\ParticleExamples.cs" />
+    <Compile Include="Assets\Asset 4- EffectExamples\Shared\Scripts\ParticleMenu.cs" />
+    <Compile Include="Assets\Scripts\Asteroid.cs" />
     <Compile Include="Assets\Scripts\CamFollow.cs" />
+    <Compile Include="Assets\Scripts\Death.cs" />
+    <Compile Include="Assets\Scripts\Destroy.cs" />
     <Compile Include="Assets\Scripts\Missile.cs" />
     <Compile Include="Assets\Scripts\Plane.cs" />
     <Compile Include="Assets\Scripts\Spawner.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Asset 4- EffectExamples\Shared\Shaders\SurfaceShader_VC.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -590,43 +603,43 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{6E9B666D-E8B9-A35F-5F0B-EF8BBDB03953}</Project>
+      <Project>{0C37D69F-0322-1E38-D817-0E7F85326F27}</Project>
       <Name>Unity.Timeline.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
-      <Project>{A6767FA7-9859-6AA3-90D4-C4933E881B3E}</Project>
+      <Project>{A8759D15-5F84-A41F-B9E9-7ECAF28896C6}</Project>
       <Name>Unity.VSCode.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
-      <Project>{21278BA0-1135-3836-749E-589E20801E93}</Project>
+      <Project>{76F7E537-75B2-168A-65A1-9DEC50118D14}</Project>
       <Name>Unity.TextMeshPro.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{DF71DA63-2127-DE0C-06F0-99C048952EB6}</Project>
+      <Project>{6914E8B5-FE1D-0B78-9946-824284E29183}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{2145E37C-6EC7-A46B-38B9-36A8D932277D}</Project>
+      <Project>{94D3144B-BCCD-0D8D-8A54-0CA0045CD8C9}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Rider.Editor.csproj">
-      <Project>{78EF8707-2DA5-0458-9DB5-43560913DC05}</Project>
+      <Project>{A4E00402-6F08-5B54-4624-D68C692A2F15}</Project>
       <Name>Unity.Rider.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
-      <Project>{FBD7C62A-A610-3C91-86FC-2A88E6BE526A}</Project>
+      <Project>{CD876E08-401E-88DD-97E5-50E7B0B33981}</Project>
       <Name>Unity.VisualStudio.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{C05BC051-3BB3-20CA-9F71-F5CE8D853752}</Project>
+      <Project>{4541048A-F523-DC8F-C8C1-369D7CC71CAF}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
-      <Project>{346D80BC-7262-11C5-CD82-29B6FB0A053D}</Project>
+      <Project>{D58A0EB8-9361-1F03-6840-BB63E1903A97}</Project>
       <Name>Unity.PlasticSCM.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{F5F43F0D-9674-1CCD-7031-B4A0EDB84E46}</Project>
+      <Project>{BB4077F6-D68E-F702-90E2-FAA4F2379973}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
   </ItemGroup>
