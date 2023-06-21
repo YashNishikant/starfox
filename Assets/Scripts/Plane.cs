@@ -71,8 +71,8 @@ public class Plane : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Instantiate(missile, transform.position + new Vector3(1.5f, -0.6f, 0), transform.rotation);
-            Instantiate(exp, transform.position + new Vector3(0.7f, -0.5f, 0), transform.rotation);
+            Instantiate(missile, transform.position + new Vector3(2f, -2f, 5), transform.rotation);
+            Instantiate(exp, transform.position + new Vector3(2f, -0.5f, 0), transform.rotation);
         }
     }
 
